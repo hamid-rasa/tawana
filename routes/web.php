@@ -16,10 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/ecditawana',function(){
-    return view('tawana');
+Route::get('test',function(){
+  return "hello";
 });
+
 
 
 
